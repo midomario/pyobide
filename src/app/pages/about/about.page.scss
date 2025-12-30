@@ -1,0 +1,80 @@
+.about-content {
+  --background: linear-gradient(135deg, var(--ion-color-primary) 0%, var(--ion-color-secondary) 100%);
+  color: white;
+}
+
+.about-content p {
+  color: white;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  margin: 20px;
+  backdrop-filter: blur(10px);
+}
+
+.hero-section ion-icon {
+  margin-bottom: 10px;
+}
+
+.hero-section h1 {
+  margin: 10px 0;
+  font-size: 2rem;
+  color: white;
+}
+
+.hero-section p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.feature-card {
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.feature-card ion-card-title {
+  font-weight: bold;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 40px 20px;
+  margin: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.contact-section p {
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+.app-info {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.app-info p {
+  margin: 5px 0;
+  color: white;
+}
+
+.app-info a {
+  color: var(--ion-color-secondary);
+  text-decoration: none;
+}

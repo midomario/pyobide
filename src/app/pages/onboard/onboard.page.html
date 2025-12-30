@@ -1,0 +1,63 @@
+<ion-content fullscreen class="onboard-content">
+  <!-- App Header -->
+  <div class="app-header">
+    <div class="logo-wrapper">
+      <img src="assets/logo.png" alt="Pyobide Logo" />
+    </div>
+    <h1 class="app-name">{{ 'APP_NAME' | translate }}</h1>
+    <p class="tagline">{{ infos.app?.tagline || 'Python IDE in your pocket' }}</p>
+  </div>
+
+  <!-- Features Slider -->
+  <div class="features-container">
+    <h2 class="features-title">{{ 'ONBOARD.FEATURES_TITLE' | translate }}</h2>
+
+    <swiper-container [config]="swiperConfig" class="features-slider">
+      <swiper-slide>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <ion-icon name="code-slash-outline" color="secondary"></ion-icon>
+          </div>
+          <h3>{{ 'ONBOARD.TITLE1' | translate }}</h3>
+          <p>{{ 'ONBOARD.DESC1' | translate }}</p>
+        </div>
+      </swiper-slide>
+
+      <swiper-slide>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <ion-icon name="book-outline" color="secondary"></ion-icon>
+          </div>
+          <h3>{{ 'ONBOARD.TITLE2' | translate }}</h3>
+          <p>{{ 'ONBOARD.DESC2' | translate }}</p>
+        </div>
+      </swiper-slide>
+
+      <swiper-slide>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <ion-icon name="rocket-outline" color="secondary"></ion-icon>
+          </div>
+          <h3>{{ 'ONBOARD.TITLE3' | translate }}</h3>
+          <p>{{ 'ONBOARD.DESC3' | translate }}</p>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+
+    <!-- Call to Action -->
+    <div class="cta-container">
+      <ion-button
+        (click)="startApp()"
+        expand="block"
+        size="large"
+        color="primary"
+        fill="solid"
+        shape="round"
+        class="start-btn"
+      >
+        <ion-icon name="play-outline" slot="start"></ion-icon>
+        {{ 'ONBOARD.START' | translate }}
+      </ion-button>
+    </div>
+  </div>
+</ion-content>

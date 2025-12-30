@@ -1,0 +1,77 @@
+<ion-menu contentId="main-content">
+  <ion-header>
+    <ion-toolbar color="primary" class="glass-header">
+      <ion-title>{{ 'APP_NAME' | translate }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+      <ion-menu-toggle>
+        <ion-item routerLink="/home" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="home-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.HOME' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/ide" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="terminal-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.IDE' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/lessons" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="book-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.LESSONS' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/about" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="information-circle-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.ABOUT' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/privacy" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="shield-checkmark-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.PRIVACY' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+      <ion-menu-toggle>
+        <ion-item routerLink="/terms" routerLinkActive="active" routerDirection="root">
+          <ion-icon name="document-text-outline" slot="start"></ion-icon>
+          <ion-label>{{ 'MENU.TERMS' | translate }}</ion-label>
+        </ion-item>
+      </ion-menu-toggle>
+    </ion-list>
+
+    <ion-list>
+      <ion-list-header>
+        <ion-label>{{ 'MENU.LANGUAGE' | translate }}</ion-label>
+      </ion-list-header>
+      <ion-item (click)="changeLanguage('en'); closeMenu()">
+        <ion-icon name="flag-outline" slot="start"></ion-icon>
+        <ion-label>{{ 'EN' | translate }}</ion-label>
+        <ion-icon *ngIf="currentLang === 'en'" name="checkmark" slot="end" color="secondary"></ion-icon>
+      </ion-item>
+      <ion-item (click)="changeLanguage('fr'); closeMenu()">
+        <ion-icon name="flag-outline" slot="start"></ion-icon>
+        <ion-label>{{ 'FR' | translate }}</ion-label>
+        <ion-icon *ngIf="currentLang === 'fr'" name="checkmark" slot="end" color="secondary"></ion-icon>
+      </ion-item>
+      <ion-item (click)="changeLanguage('ar'); closeMenu()">
+        <ion-icon name="flag-outline" slot="start"></ion-icon>
+        <ion-label>{{ 'AR' | translate }}</ion-label>
+        <ion-icon *ngIf="currentLang === 'ar'" name="checkmark" slot="end" color="secondary"></ion-icon>
+      </ion-item>
+      <ion-item (click)="changeLanguage('es'); closeMenu()">
+        <ion-icon name="flag-outline" slot="start"></ion-icon>
+        <ion-label>{{ 'ES' | translate }}</ion-label>
+        <ion-icon *ngIf="currentLang === 'es'" name="checkmark" slot="end" color="secondary"></ion-icon>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<div class="ion-page" id="main-content">
+  <ion-router-outlet></ion-router-outlet>
+</div>

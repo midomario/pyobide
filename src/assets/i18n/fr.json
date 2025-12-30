@@ -1,0 +1,117 @@
+{
+  "APP_NAME": "Pyobide - IDE Python Basique Hors Ligne",
+  "ONBOARD": {
+    "TITLE1": "Exécuter Python Hors Ligne",
+    "DESC1": "Exécutez du code Python directement sur votre appareil",
+    "TITLE2": "Apprendre & Expérimenter",
+    "DESC2": "Parfait pour les étudiants et développeurs",
+    "TITLE3": "Rapide & Sécurisé",
+    "DESC3": "Aucune connexion internet requise",
+    "START": "Commencer",
+    "FEATURES_TITLE": "Pourquoi Choisir Pyobide ?"
+  },
+  "MENU": {
+    "HOME": "Accueil",
+    "IDE": "IDE Python",
+    "LESSONS": "Leçons",
+    "ABOUT": "À Propos",
+    "PRIVACY": "Politique de Confidentialité",
+    "TERMS": "Conditions d'Utilisation",
+    "LANGUAGE": "Langue"
+  },
+  "HOME": {
+    "TITLE": "Pyobide - IDE Python Basique Hors Ligne",
+    "RUN": "Exécuter",
+    "RUNNING": "Exécution de Python...",
+    "WELCOME": "Bienvenue sur Pyobide",
+    "SUBTITLE": "Votre Environnement Python Hors Ligne",
+    "IDE_TITLE": "IDE Python",
+    "IDE_DESCRIPTION": "Écrivez, modifiez et exécutez du code Python avec coloration syntaxique et autocomplétion.",
+    "LESSONS_TITLE": "Leçons Python",
+    "LESSONS_DESCRIPTION": "Apprenez la programmation Python avec des tutoriels interactifs et des exemples."
+  },
+  "OUTPUT": {
+    "TITLE": "Sortie",
+    "CLOSE": "Fermer",
+    "CLEAR": "Effacer la Sortie"
+  },
+  "ABOUT": {
+    "TITLE": "À Propos de Pyobide",
+    "SUBTITLE": "Votre Terrain de Jeu Python Hors Ligne",
+    "FEATURE1_TITLE": "Construit avec Ionic & Pyodide",
+    "FEATURE1_DESC": "Pyobide utilise la puissance du framework Ionic et Pyodide pour apporter l'exécution Python directement sur votre appareil mobile. Aucun internet requis !",
+    "FEATURE2_TITLE": "Parfait pour Apprendre",
+    "FEATURE2_DESC": "Que vous soyez étudiant, développeur ou simplement curieux de Python, Pyobide fournit un environnement intuitif pour écrire, exécuter et expérimenter du code.",
+    "FEATURE3_TITLE": "Rapide & Sécurisé",
+    "FEATURE3_DESC": "Exécutez du code Python instantanément sur votre appareil sans envoyer de données vers des serveurs externes. Votre code reste privé et sécurisé.",
+    "CONTACT_TITLE": "Contactez-Nous",
+    "CONTACT_DESC": "Si vous avez des questions ou des commentaires, n'hésitez pas à nous contacter !",
+    "CONTACT_BUTTON": "Contacter le Support"
+  },
+  "PRIVACY": {
+    "TITLE": "Politique de Confidentialité",
+    "LAST_UPDATED": "Dernière mise à jour : 26 décembre 2025",
+    "COLLECT_TITLE": "Informations que Nous Collectons",
+    "COLLECT_DESC": "Pyobide est conçu pour fonctionner entièrement hors ligne. Nous ne collectons, stockons ou transmettons aucune information personnelle, code ou donnée de votre appareil.",
+    "USE_TITLE": "Comment Nous Utilisons les Informations",
+    "USE_DESC": "Puisque nous ne collectons aucune information, il n'y a pas d'utilisation de données personnelles. Toute exécution de code Python se fait localement sur votre appareil en utilisant Pyodide.",
+    "SECURITY_TITLE": "Sécurité des Données",
+    "SECURITY_DESC": "Votre confidentialité est notre priorité. Tout code et donnée restent sur votre appareil. Nous recommandons de garder votre appareil sécurisé pour protéger vos informations.",
+    "THIRD_PARTY_TITLE": "Services Tiers",
+    "THIRD_PARTY_DESC": "Pyobide ne s'intègre pas avec des services tiers qui collectent des données utilisateur. L'application est autonome et prioritairement hors ligne.",
+    "CHANGES_TITLE": "Modifications de Cette Politique",
+    "CHANGES_DESC": "Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Toute modification sera reflétée dans l'application et sur cette page.",
+    "QUESTIONS_TITLE": "Questions ?",
+    "QUESTIONS_DESC": "Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter.",
+    "CONTACT_BUTTON": "Contactez-Nous"
+  },
+  "TERMS": {
+    "TITLE": "Conditions d'Utilisation",
+    "LAST_UPDATED": "Dernière mise à jour : 26 décembre 2025",
+    "ACCEPTANCE_TITLE": "Acceptation des Conditions",
+    "ACCEPTANCE_DESC": "En utilisant Pyobide, vous acceptez ces conditions d'utilisation. Si vous n'acceptez pas, veuillez ne pas utiliser l'application.",
+    "USE_TITLE": "Utilisation de l'Application",
+    "USE_DESC": "Pyobide est fourni pour un usage éducatif et personnel. Vous pouvez l'utiliser pour écrire et exécuter du code Python hors ligne. L'usage commercial est autorisé tant qu'il respecte ces conditions.",
+    "RESPONSIBILITY_TITLE": "Responsabilités de l'Utilisateur",
+    "RESPONSIBILITY_DESC": "Vous êtes responsable du code que vous écrivez et exécutez. Pyobide n'est pas responsable des dommages causés par une mauvaise utilisation de l'application ou l'exécution de code nuisible.",
+    "DISCLAIMER_TITLE": "Avis de Non-Responsabilité",
+    "DISCLAIMER_DESC": "L'application est fournie \"telle quelle\" sans garanties. Nous ne garantissons pas un service ininterrompu ou une opération sans erreur.",
+    "LIABILITY_TITLE": "Limitation de Responsabilité",
+    "LIABILITY_DESC": "En aucun cas Pyobide ou ses développeurs ne pourront être tenus responsables de dommages indirects, accessoires ou consécutifs découlant de l'utilisation de l'application.",
+    "CHANGES_TITLE": "Modifications des Conditions",
+    "CHANGES_DESC": "Nous nous réservons le droit de modifier ces conditions à tout moment. L'utilisation continue de l'application constitue l'acceptation des conditions mises à jour.",
+    "CONTACT_TITLE": "Informations de Contact",
+    "CONTACT_DESC": "Pour des questions sur ces conditions, veuillez nous contacter.",
+    "CONTACT_BUTTON": "Contactez-Nous"
+  },
+  "LEVELS": {
+    "BEGINNER": "Débutant",
+    "INTERMEDIATE": "Intermédiaire",
+    "ADVANCED": "Avancé"
+  },
+  "LESSONS": {
+    "TITLE": "Leçons Python",
+    "SUBTITLE": "Apprenez la Programmation Python",
+    "DESCRIPTION": "Maîtrisez Python avec des leçons interactives et des exemples",
+    "BASICS_TITLE": "Bases de Python",
+    "BASICS_DESC": "Apprenez les fondamentaux de la programmation Python",
+    "VARIABLES_TITLE": "Variables & Types de Données",
+    "VARIABLES_DESC": "Comprendre les variables, chaînes, nombres et booléens",
+    "LOOPS_TITLE": "Boucles & Flux de Contrôle",
+    "LOOPS_DESC": "Maîtrisez les boucles for, while et les instructions conditionnelles",
+    "FUNCTIONS_TITLE": "Fonctions",
+    "FUNCTIONS_DESC": "Créez du code réutilisable avec des fonctions et paramètres",
+    "LISTS_TITLE": "Listes & Dictionnaires",
+    "LISTS_DESC": "Travaillez avec des collections de données utilisant des listes et dictionnaires",
+    "CLASSES_TITLE": "Programmation Orientée Objet",
+    "CLASSES_DESC": "Apprenez les classes, objets et héritage",
+    "BEGINNER": "Débutant",
+    "INTERMEDIATE": "Intermédiaire",
+    "ADVANCED": "Avancé"
+  },
+  "LESSON": {
+    "NO_CHAPTERS": "Aucun chapitre disponible pour cette leçon",
+    "EXERCISES": "Exercices Pratiques",
+    "EXERCISES_DESC": "Essayez ces exercices pour pratiquer ce que vous avez appris"
+  }
+}

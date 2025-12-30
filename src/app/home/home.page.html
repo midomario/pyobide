@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="primary" class="glass-header">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ 'HOME.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="home-content">
+  <div class="selector-container">
+    <div class="logo-section">
+      <div class="logo-wrapper">
+      <img src="assets/logo.png" alt="PyIonic Logo" />
+    </div>
+      <h1>{{ 'HOME.WELCOME' | translate }}</h1>
+      <p>{{ 'HOME.SUBTITLE' | translate }}</p>
+    </div>
+
+    <div class="cards-section">
+      <ion-card class="selector-card" (click)="navigateToIde()">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="terminal-outline" slot="start"></ion-icon>
+            {{ 'HOME.IDE_TITLE' | translate }}
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ 'HOME.IDE_DESCRIPTION' | translate }}
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card class="selector-card" (click)="navigateToLessons()">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="book-outline" slot="start"></ion-icon>
+            {{ 'HOME.LESSONS_TITLE' | translate }}
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          {{ 'HOME.LESSONS_DESCRIPTION' | translate }}
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>

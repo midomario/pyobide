@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PyobIDE</string>
+    <string name="title_activity_main">PyobIDE</string>
+    <string name="package_name">com.pyobide.app</string>
+    <string name="custom_url_scheme">com.pyobide.app</string>
+</resources>

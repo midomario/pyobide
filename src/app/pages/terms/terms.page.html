@@ -1,0 +1,84 @@
+<ion-header>
+  <ion-toolbar color="primary" class="glass-header">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ 'TERMS.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="terms-content">
+  <div class="header-section">
+    <ion-icon name="document-text-outline" size="large" color="secondary"></ion-icon>
+    <h1>{{ 'TERMS.TITLE' | translate }}</h1>
+    <p>{{ 'TERMS.LAST_UPDATED' | translate }}</p>
+  </div>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.ACCEPTANCE_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.ACCEPTANCE_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.USE_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.USE_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.RESPONSIBILITY_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.RESPONSIBILITY_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.DISCLAIMER_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.DISCLAIMER_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.LIABILITY_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.LIABILITY_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="terms-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'TERMS.CHANGES_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'TERMS.CHANGES_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="contact-section">
+    <h2 color="primary">{{ 'TERMS.CONTACT_TITLE' | translate }}</h2>
+    <p>{{ 'TERMS.CONTACT_DESC' | translate }}</p>
+    <div class="app-info">
+      <p><strong>Website:</strong> <a href="https://omzor.com" target="_blank">omzor.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:contact@omzor.com">contact@omzor.com</a></p>
+      <p><strong>Author/Developer:</strong> MOHAMED OM</p>
+    </div>
+    <ion-button color="secondary" fill="outline">
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      {{ 'TERMS.CONTACT_BUTTON' | translate }}
+    </ion-button>
+  </div>
+</ion-content>

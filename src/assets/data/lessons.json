@@ -1,0 +1,797 @@
+{
+  "meta": {
+    "version": "1.0",
+    "language_default": "en"
+  },
+  "levels": {
+    "beginner": {
+      "lessons": [
+        {
+          "id": "lesson_001",
+          "translations": {
+            "en": {
+              "title": "Python Basics",
+              "description": "Learn the foundations of Python programming."
+            },
+            "fr": {
+              "title": "Bases de Python",
+              "description": "Apprenez les bases de la programmation Python."
+            },
+            "es": {
+              "title": "Fundamentos de Python",
+              "description": "Aprende los fundamentos de la programación en Python."
+            },
+            "ar": {
+              "title": "أساسيات بايثون",
+              "description": "تعلم أساسيات البرمجة بلغة بايثون."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_001",
+              "translations": {
+                "en": {
+                  "title": "What is Python?",
+                  "description": "Introduction to Python language.",
+                  "content": "<p><strong>Python</strong> is a high-level programming language known for its simplicity.</p><ul><li>Easy to read</li><li>Interpreted</li><li>Widely used</li></ul><pre><code>print(\"Hello, World!\")</code></pre>"
+                },
+                "fr": {
+                  "title": "Qu’est-ce que Python ?",
+                  "description": "Introduction au langage Python.",
+                  "content": "<p><strong>Python</strong> est un langage de programmation de haut niveau.</p><ul><li>Facile à lire</li><li>Interprété</li><li>Très utilisé</li></ul><pre><code>print(\"Bonjour le monde\")</code></pre>"
+                },
+                "es": {
+                  "title": "¿Qué es Python?",
+                  "description": "Introducción al lenguaje Python.",
+                  "content": "<p><strong>Python</strong> es un lenguaje de programación de alto nivel.</p><ul><li>Fácil de leer</li><li>Interpretado</li><li>Muy usado</li></ul><pre><code>print(\"Hola Mundo\")</code></pre>"
+                },
+                "ar": {
+                  "title": "ما هي بايثون؟",
+                  "description": "مقدمة إلى لغة بايثون.",
+                  "content": "<p><strong>بايثون</strong> هي لغة برمجة سهلة وقوية.</p><ul><li>سهلة القراءة</li><li>مفسرة</li><li>مستخدمة بكثرة</li></ul><pre><code>print(\"مرحبا بالعالم\")</code></pre>"
+                }
+              }
+            },
+            {
+              "id": "chapter_002",
+              "translations": {
+                "en": {
+                  "title": "Variables",
+                  "description": "Store data in variables.",
+                  "content": "<p>Variables are used to store values.</p><pre><code>x = 10\ny = \"Python\"\nprint(x, y)</code></pre>"
+                },
+                "fr": {
+                  "title": "Variables",
+                  "description": "Stocker des données dans des variables.",
+                  "content": "<p>Les variables servent à stocker des valeurs.</p><pre><code>x = 10\ny = \"Python\"\nprint(x, y)</code></pre>"
+                },
+                "es": {
+                  "title": "Variables",
+                  "description": "Guardar datos en variables.",
+                  "content": "<p>Las variables se usan para guardar valores.</p><pre><code>x = 10\ny = \"Python\"\nprint(x, y)</code></pre>"
+                },
+                "ar": {
+                  "title": "المتغيرات",
+                  "description": "تخزين القيم داخل المتغيرات.",
+                  "content": "<p>تُستخدم المتغيرات لتخزين القيم.</p><pre><code>x = 10\ny = \"Python\"\nprint(x, y)</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_001",
+              "translations": {
+                "en": {
+                  "title": "Hello World",
+                  "description": "Print your first message",
+                  "code": "print(\"Hello, World!\")",
+                  "expected_output": "Hello, World!"
+                },
+                "fr": {
+                  "title": "Bonjour le Monde",
+                  "description": "Affichez votre premier message",
+                  "code": "print(\"Bonjour le monde\")",
+                  "expected_output": "Bonjour le monde"
+                },
+                "es": {
+                  "title": "Hola Mundo",
+                  "description": "Imprime tu primer mensaje",
+                  "code": "print(\"Hola Mundo\")",
+                  "expected_output": "Hola Mundo"
+                },
+                "ar": {
+                  "title": "مرحبا بالعالم",
+                  "description": "اطبع رسالتك الأولى",
+                  "code": "print(\"مرحبا بالعالم\")",
+                  "expected_output": "مرحبا بالعالم"
+                }
+              }
+            },
+            {
+              "id": "exercise_002",
+              "translations": {
+                "en": {
+                  "title": "Using Variables",
+                  "description": "Create and print variables",
+                  "code": "name = \"Python\"\nage = 30\nprint(\"Language:\", name)\nprint(\"Age:\", age)",
+                  "expected_output": "Language: Python\nAge: 30"
+                },
+                "fr": {
+                  "title": "Utiliser les Variables",
+                  "description": "Créer et afficher des variables",
+                  "code": "nom = \"Python\"\nage = 30\nprint(\"Langage:\", nom)\nprint(\"Âge:\", age)",
+                  "expected_output": "Langage: Python\nÂge: 30"
+                },
+                "es": {
+                  "title": "Usando Variables",
+                  "description": "Crear e imprimir variables",
+                  "code": "nombre = \"Python\"\nedad = 30\nprint(\"Lenguaje:\", nombre)\nprint(\"Edad:\", edad)",
+                  "expected_output": "Lenguaje: Python\nEdad: 30"
+                },
+                "ar": {
+                  "title": "استخدام المتغيرات",
+                  "description": "إنشاء وطباعة المتغيرات",
+                  "code": "name = \"Python\"\nage = 30\nprint(\"اللغة:\", name)\nprint(\"العمر:\", age)",
+                  "expected_output": "اللغة: Python\nالعمر: 30"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "intermediate": {
+      "lessons": [
+        {
+          "id": "lesson_002",
+          "translations": {
+            "en": {
+              "title": "Conditions & Loops",
+              "description": "Control program flow."
+            },
+            "fr": {
+              "title": "Conditions et Boucles",
+              "description": "Contrôler le flux du programme."
+            },
+            "es": {
+              "title": "Condiciones y Bucles",
+              "description": "Controlar el flujo del programa."
+            },
+            "ar": {
+              "title": "الشروط والحلقات",
+              "description": "التحكم في تدفق البرنامج."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_003",
+              "translations": {
+                "en": {
+                  "title": "If Statement",
+                  "description": "Decision making in Python.",
+                  "content": "<p>The <strong>if</strong> statement executes code based on conditions.</p><pre><code>age = 18\nif age >= 18:\n    print(\"Adult\")</code></pre>"
+                },
+                "fr": {
+                  "title": "Instruction If",
+                  "description": "Prendre des décisions.",
+                  "content": "<p>L’instruction <strong>if</strong> permet de tester une condition.</p><pre><code>age = 18\nif age >= 18:\n    print(\"Adulte\")</code></pre>"
+                },
+                "es": {
+                  "title": "Sentencia If",
+                  "description": "Tomar decisiones.",
+                  "content": "<p>La sentencia <strong>if</strong> evalúa condiciones.</p><pre><code>age = 18\nif age >= 18:\n    print(\"Adulto\")</code></pre>"
+                },
+                "ar": {
+                  "title": "جملة If",
+                  "description": "اتخاذ القرارات في بايثون.",
+                  "content": "<p>تُستخدم <strong>if</strong> للتحقق من الشروط.</p><pre><code>age = 18\nif age >= 18:\n    print(\"راشد\")</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_003",
+              "translations": {
+                "en": {
+                  "title": "Age Check",
+                  "description": "Check if someone is an adult",
+                  "code": "age = 20\nif age >= 18:\n    print(\"You are an adult\")\nelse:\n    print(\"You are a minor\")",
+                  "expected_output": "You are an adult"
+                },
+                "fr": {
+                  "title": "Vérification d'Âge",
+                  "description": "Vérifier si quelqu'un est adulte",
+                  "code": "age = 20\nif age >= 18:\n    print(\"Vous êtes adulte\")\nelse:\n    print(\"Vous êtes mineur\")",
+                  "expected_output": "Vous êtes adulte"
+                },
+                "es": {
+                  "title": "Verificación de Edad",
+                  "description": "Verificar si alguien es adulto",
+                  "code": "edad = 20\nif edad >= 18:\n    print(\"Eres adulto\")\nelse:\n    print(\"Eres menor\")",
+                  "expected_output": "Eres adulto"
+                },
+                "ar": {
+                  "title": "فحص العمر",
+                  "description": "التحقق من أن شخص ما راشد",
+                  "code": "age = 20\nif age >= 18:\n    print(\"أنت راشد\")\nelse:\n    print(\"أنت قاصر\")",
+                  "expected_output": "أنت راشد"
+                }
+              }
+            },
+            {
+              "id": "exercise_004",
+              "translations": {
+                "en": {
+                  "title": "Grade Calculator",
+                  "description": "Determine grade based on score",
+                  "code": "score = 85\nif score >= 90:\n    print(\"Grade: A\")\nelif score >= 80:\n    print(\"Grade: B\")\nelif score >= 70:\n    print(\"Grade: C\")\nelse:\n    print(\"Grade: F\")",
+                  "expected_output": "Grade: B"
+                },
+                "fr": {
+                  "title": "Calculateur de Note",
+                  "description": "Déterminer la note selon le score",
+                  "code": "score = 85\nif score >= 90:\n    print(\"Note: A\")\nelif score >= 80:\n    print(\"Note: B\")\nelif score >= 70:\n    print(\"Note: C\")\nelse:\n    print(\"Note: F\")",
+                  "expected_output": "Note: B"
+                },
+                "es": {
+                  "title": "Calculadora de Calificaciones",
+                  "description": "Determinar calificación según puntuación",
+                  "code": "puntuacion = 85\nif puntuacion >= 90:\n    print(\"Calificación: A\")\nelif puntuacion >= 80:\n    print(\"Calificación: B\")\nelif puntuacion >= 70:\n    print(\"Calificación: C\")\nelse:\n    print(\"Calificación: F\")",
+                  "expected_output": "Calificación: B"
+                },
+                "ar": {
+                  "title": "حاسبة الدرجات",
+                  "description": "تحديد الدرجة بناءً على النقاط",
+                  "code": "score = 85\nif score >= 90:\n    print(\"الدرجة: A\")\nelif score >= 80:\n    print(\"الدرجة: B\")\nelif score >= 70:\n    print(\"الدرجة: C\")\nelse:\n    print(\"الدرجة: F\")",
+                  "expected_output": "الدرجة: B"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_003",
+          "translations": {
+            "en": {
+              "title": "For Loops",
+              "description": "Iterate over sequences with for loops."
+            },
+            "fr": {
+              "title": "Boucles For",
+              "description": "Itérer sur des séquences avec des boucles for."
+            },
+            "es": {
+              "title": "Bucles For",
+              "description": "Iterar sobre secuencias con bucles for."
+            },
+            "ar": {
+              "title": "حلقات For",
+              "description": "التكرار على التسلسلات باستخدام حلقات for."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_004",
+              "translations": {
+                "en": {
+                  "title": "Using For Loops",
+                  "description": "Learn how to use for loops in Python.",
+                  "content": "<p>The <strong>for</strong> loop is used to iterate over a sequence.</p><ul><li>Works with lists, strings, etc.</li><li>Executes code for each item</li></ul><pre><code>fruits = ['apple', 'banana', 'cherry']\nfor fruit in fruits:\n    print(fruit)</code></pre>"
+                },
+                "fr": {
+                  "title": "Utiliser les Boucles For",
+                  "description": "Apprenez à utiliser les boucles for en Python.",
+                  "content": "<p>La boucle <strong>for</strong> permet d’itérer sur une séquence.</p><ul><li>Fonctionne avec les listes, chaînes, etc.</li><li>Exécute du code pour chaque élément</li></ul><pre><code>fruits = ['pomme', 'banane', 'cerise']\nfor fruit in fruits:\n    print(fruit)</code></pre>"
+                },
+                "es": {
+                  "title": "Usando Bucles For",
+                  "description": "Aprende a usar bucles for en Python.",
+                  "content": "<p>El bucle <strong>for</strong> se usa para iterar sobre una secuencia.</p><ul><li>Funciona con listas, cadenas, etc.</li><li>Ejecuta código para cada elemento</li></ul><pre><code>frutas = ['manzana', 'plátano', 'cereza']\nfor fruta in frutas:\n    print(fruta)</code></pre>"
+                },
+                "ar": {
+                  "title": "استخدام حلقات For",
+                  "description": "تعلم كيفية استخدام حلقات for في بايثون.",
+                  "content": "<p>تُستخدم حلقة <strong>for</strong> للتكرار على تسلسل.</p><ul><li>تعمل مع القوائم، السلاسل، إلخ.</li><li>تنفذ الكود لكل عنصر</li></ul><pre><code>fruits = ['تفاحة', 'موز', 'كرز']\nfor fruit in fruits:\n    print(fruit)</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_005",
+              "translations": {
+                "en": {
+                  "title": "Fruit Loop",
+                  "description": "Print each fruit in a list",
+                  "code": "fruits = ['apple', 'banana', 'orange']\nfor fruit in fruits:\n    print(fruit)",
+                  "expected_output": "apple\nbanana\norange"
+                },
+                "fr": {
+                  "title": "Boucle de Fruits",
+                  "description": "Afficher chaque fruit dans une liste",
+                  "code": "fruits = ['pomme', 'banane', 'orange']\nfor fruit in fruits:\n    print(fruit)",
+                  "expected_output": "pomme\nbanane\norange"
+                },
+                "es": {
+                  "title": "Bucle de Frutas",
+                  "description": "Imprimir cada fruta en una lista",
+                  "code": "frutas = ['manzana', 'plátano', 'naranja']\nfor fruta in frutas:\n    print(fruta)",
+                  "expected_output": "manzana\nplátano\nnaranja"
+                },
+                "ar": {
+                  "title": "حلقة الفواكه",
+                  "description": "طباعة كل فاكهة في القائمة",
+                  "code": "fruits = ['تفاحة', 'موز', 'برتقالة']\nfor fruit in fruits:\n    print(fruit)",
+                  "expected_output": "تفاحة\nموز\nبرتقالة"
+                }
+              }
+            },
+            {
+              "id": "exercise_006",
+              "translations": {
+                "en": {
+                  "title": "Number Counter",
+                  "description": "Count from 1 to 5 using a loop",
+                  "code": "for i in range(1, 6):\n    print(i)",
+                  "expected_output": "1\n2\n3\n4\n5"
+                },
+                "fr": {
+                  "title": "Compteur de Nombres",
+                  "description": "Compter de 1 à 5 avec une boucle",
+                  "code": "for i in range(1, 6):\n    print(i)",
+                  "expected_output": "1\n2\n3\n4\n5"
+                },
+                "es": {
+                  "title": "Contador de Números",
+                  "description": "Contar del 1 al 5 usando un bucle",
+                  "code": "for i in range(1, 6):\n    print(i)",
+                  "expected_output": "1\n2\n3\n4\n5"
+                },
+                "ar": {
+                  "title": "عداد الأرقام",
+                  "description": "العد من 1 إلى 5 باستخدام حلقة",
+                  "code": "for i in range(1, 6):\n    print(i)",
+                  "expected_output": "1\n2\n3\n4\n5"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_004",
+          "translations": {
+            "en": {
+              "title": "Logical Operators",
+              "description": "Combine conditions with logical operators."
+            },
+            "fr": {
+              "title": "Opérateurs Logiques",
+              "description": "Combiner des conditions avec des opérateurs logiques."
+            },
+            "es": {
+              "title": "Operadores Lógicos",
+              "description": "Combinar condiciones con operadores lógicos."
+            },
+            "ar": {
+              "title": "العوامل المنطقية",
+              "description": "دمج الشروط باستخدام العوامل المنطقية."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_005",
+              "translations": {
+                "en": {
+                  "title": "And, Or, Not",
+                  "description": "Understanding logical operators.",
+                  "content": "<p>Logical operators combine boolean expressions.</p><ul><li><strong>and</strong>: Both true</li><li><strong>or</strong>: At least one true</li><li><strong>not</strong>: Negates</li></ul><pre><code>age = 25\nis_student = True\nif age > 18 and is_student:\n    print(\"Eligible\")</code></pre>"
+                },
+                "fr": {
+                  "title": "And, Or, Not",
+                  "description": "Comprendre les opérateurs logiques.",
+                  "content": "<p>Les opérateurs logiques combinent des expressions booléennes.</p><ul><li><strong>and</strong> : Les deux vrais</li><li><strong>or</strong> : Au moins un vrai</li><li><strong>not</strong> : Négation</li></ul><pre><code>age = 25\nis_student = True\nif age > 18 and is_student:\n    print(\"Éligible\")</code></pre>"
+                },
+                "es": {
+                  "title": "And, Or, Not",
+                  "description": "Entendiendo los operadores lógicos.",
+                  "content": "<p>Los operadores lógicos combinan expresiones booleanas.</p><ul><li><strong>and</strong>: Ambos verdaderos</li><li><strong>or</strong>: Al menos uno verdadero</li><li><strong>not</strong>: Niega</li></ul><pre><code>edad = 25\nes_estudiante = True\nif edad > 18 and es_estudiante:\n    print(\"Elegible\")</code></pre>"
+                },
+                "ar": {
+                  "title": "And, Or, Not",
+                  "description": "فهم العوامل المنطقية.",
+                  "content": "<p>تجمع العوامل المنطقية التعبيرات المنطقية.</p><ul><li><strong>and</strong>: كلاهما صحيح</li><li><strong>or</strong>: واحد على الأقل صحيح</li><li><strong>not</strong>: النفي</li></ul><pre><code>age = 25\nis_student = True\nif age > 18 and is_student:\n    print(\"مؤهل\")</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_007",
+              "translations": {
+                "en": {
+                  "title": "Eligibility Check",
+                  "description": "Check if someone is eligible for a discount",
+                  "code": "age = 22\nis_student = True\nif age >= 18 and is_student:\n    print(\"Eligible for student discount\")\nelse:\n    print(\"Not eligible for student discount\")",
+                  "expected_output": "Eligible for student discount"
+                },
+                "fr": {
+                  "title": "Vérification d'Éligibilité",
+                  "description": "Vérifier si quelqu'un est éligible à une remise",
+                  "code": "age = 22\nis_student = True\nif age >= 18 and is_student:\n    print(\"Éligible à la remise étudiante\")\nelse:\n    print(\"Non éligible à la remise étudiante\")",
+                  "expected_output": "Éligible à la remise étudiante"
+                },
+                "es": {
+                  "title": "Verificación de Elegibilidad",
+                  "description": "Verificar si alguien es elegible para un descuento",
+                  "code": "edad = 22\nes_estudiante = True\nif edad >= 18 and es_estudiante:\n    print(\"Elegible para descuento estudiantil\")\nelse:\n    print(\"No elegible para descuento estudiantil\")",
+                  "expected_output": "Elegible para descuento estudiantil"
+                },
+                "ar": {
+                  "title": "فحص الأهلية",
+                  "description": "التحقق من أن شخص ما مؤهل للحصول على خصم",
+                  "code": "age = 22\nis_student = True\nif age >= 18 and is_student:\n    print(\"مؤهل للحصول على خصم الطلاب\")\nelse:\n    print(\"غير مؤهل للحصول على خصم الطلاب\")",
+                  "expected_output": "مؤهل للحصول على خصم الطلاب"
+                }
+              }
+            },
+            {
+              "id": "exercise_008",
+              "translations": {
+                "en": {
+                  "title": "Weather Decision",
+                  "description": "Decide what to do based on weather conditions",
+                  "code": "is_raining = False\nis_cold = True\nif not is_raining and not is_cold:\n    print(\"Perfect weather for a walk\")\nelif is_raining or is_cold:\n    print(\"Better to stay inside\")\nelse:\n    print(\"Check the weather again\")",
+                  "expected_output": "Better to stay inside"
+                },
+                "fr": {
+                  "title": "Décision Météo",
+                  "description": "Décider quoi faire selon les conditions météo",
+                  "code": "is_raining = False\nis_cold = True\nif not is_raining and not is_cold:\n    print(\"Temps parfait pour une promenade\")\nelif is_raining or is_cold:\n    print(\"Mieux vaut rester à l'intérieur\")\nelse:\n    print(\"Vérifiez la météo à nouveau\")",
+                  "expected_output": "Mieux vaut rester à l'intérieur"
+                },
+                "es": {
+                  "title": "Decisión del Clima",
+                  "description": "Decidir qué hacer según las condiciones del clima",
+                  "code": "esta_lloviendo = False\nhace_frio = True\nif not esta_lloviendo and not hace_frio:\n    print(\"Clima perfecto para caminar\")\nelif esta_lloviendo or hace_frio:\n    print(\"Mejor quedarse adentro\")\nelse:\n    print(\"Revisar el clima de nuevo\")",
+                  "expected_output": "Mejor quedarse adentro"
+                },
+                "ar": {
+                  "title": "قرار الطقس",
+                  "description": "اتخاذ قرار بناءً على ظروف الطقس",
+                  "code": "is_raining = False\nis_cold = True\nif not is_raining and not is_cold:\n    print(\"طقس مثالي للمشي\")\nelif is_raining or is_cold:\n    print(\"أفضل البقاء في الداخل\")\nelse:\n    print(\"تحقق من الطقس مرة أخرى\")",
+                  "expected_output": "أفضل البقاء في الداخل"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_005",
+          "translations": {
+            "en": {
+              "title": "Converting Data",
+              "description": "Convert between data types."
+            },
+            "fr": {
+              "title": "Conversion de Données",
+              "description": "Convertir entre types de données."
+            },
+            "es": {
+              "title": "Convirtiendo Datos",
+              "description": "Convertir entre tipos de datos."
+            },
+            "ar": {
+              "title": "تحويل البيانات",
+              "description": "التحويل بين أنواع البيانات."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_006",
+              "translations": {
+                "en": {
+                  "title": "Type Conversion",
+                  "description": "Learn to convert data types in Python.",
+                  "content": "<p>Convert between int, float, str, etc.</p><ul><li><strong>int()</strong>: To integer</li><li><strong>str()</strong>: To string</li><li><strong>float()</strong>: To float</li></ul><pre><code>num_str = \"42\"\nnum_int = int(num_str)\nprint(num_int + 8)</code></pre>"
+                },
+                "fr": {
+                  "title": "Conversion de Type",
+                  "description": "Apprenez à convertir les types de données en Python.",
+                  "content": "<p>Convertir entre int, float, str, etc.</p><ul><li><strong>int()</strong> : Vers entier</li><li><strong>str()</strong> : Vers chaîne</li><li><strong>float()</strong> : Vers flottant</li></ul><pre><code>num_str = \"42\"\nnum_int = int(num_str)\nprint(num_int + 8)</code></pre>"
+                },
+                "es": {
+                  "title": "Conversión de Tipo",
+                  "description": "Aprende a convertir tipos de datos en Python.",
+                  "content": "<p>Convertir entre int, float, str, etc.</p><ul><li><strong>int()</strong>: A entero</li><li><strong>str()</strong>: A cadena</li><li><strong>float()</strong>: A flotante</li></ul><pre><code>num_str = \"42\"\nnum_int = int(num_str)\nprint(num_int + 8)</code></pre>"
+                },
+                "ar": {
+                  "title": "تحويل النوع",
+                  "description": "تعلم تحويل أنواع البيانات في بايثون.",
+                  "content": "<p>التحويل بين int، float، str، إلخ.</p><ul><li><strong>int()</strong>: إلى عدد صحيح</li><li><strong>str()</strong>: إلى سلسلة</li><li><strong>float()</strong>: إلى عدد عشري</li></ul><pre><code>num_str = \"42\"\nnum_int = int(num_str)\nprint(num_int + 8)</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_009",
+              "translations": {
+                "en": {
+                  "title": "String to Number",
+                  "description": "Convert a string to a number and perform calculation",
+                  "code": "price_str = \"29.99\"\nprice_float = float(price_str)\ntax = price_float * 0.08\nprint(\"Total:\", price_float + tax)",
+                  "expected_output": "Total: 32.3892"
+                },
+                "fr": {
+                  "title": "Chaîne vers Nombre",
+                  "description": "Convertir une chaîne en nombre et effectuer un calcul",
+                  "code": "prix_str = \"29.99\"\nprix_float = float(prix_str)\ntaxe = prix_float * 0.08\nprint(\"Total:\", prix_float + taxe)",
+                  "expected_output": "Total: 32.3892"
+                },
+                "es": {
+                  "title": "Cadena a Número",
+                  "description": "Convertir una cadena a número y realizar cálculo",
+                  "code": "precio_str = \"29.99\"\nprecio_float = float(precio_str)\nimpuesto = precio_float * 0.08\nprint(\"Total:\", precio_float + impuesto)",
+                  "expected_output": "Total: 32.3892"
+                },
+                "ar": {
+                  "title": "سلسلة إلى رقم",
+                  "description": "تحويل سلسلة إلى رقم وإجراء حساب",
+                  "code": "price_str = \"29.99\"\nprice_float = float(price_str)\ntax = price_float * 0.08\nprint(\"المجموع:\", price_float + tax)",
+                  "expected_output": "المجموع: 32.3892"
+                }
+              }
+            },
+            {
+              "id": "exercise_010",
+              "translations": {
+                "en": {
+                  "title": "Number to String",
+                  "description": "Convert numbers to strings for concatenation",
+                  "code": "year = 2024\nmonth = 12\ndate_str = str(month) + \"/\" + str(year)\nprint(\"Date:\", date_str)",
+                  "expected_output": "Date: 12/2024"
+                },
+                "fr": {
+                  "title": "Nombre vers Chaîne",
+                  "description": "Convertir des nombres en chaînes pour concaténation",
+                  "code": "annee = 2024\nmois = 12\ndate_str = str(mois) + \"/\" + str(annee)\nprint(\"Date:\", date_str)",
+                  "expected_output": "Date: 12/2024"
+                },
+                "es": {
+                  "title": "Número a Cadena",
+                  "description": "Convertir números a cadenas para concatenación",
+                  "code": "anio = 2024\nmes = 12\nfecha_str = str(mes) + \"/\" + str(anio)\nprint(\"Fecha:\", fecha_str)",
+                  "expected_output": "Fecha: 12/2024"
+                },
+                "ar": {
+                  "title": "رقم إلى سلسلة",
+                  "description": "تحويل الأرقام إلى سلاسل للربط",
+                  "code": "year = 2024\nmonth = 12\ndate_str = str(month) + \"/\" + str(year)\nprint(\"التاريخ:\", date_str)",
+                  "expected_output": "التاريخ: 12/2024"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_006",
+          "translations": {
+            "en": {
+              "title": "Lists and Arrays",
+              "description": "Work with lists to store multiple values."
+            },
+            "fr": {
+              "title": "Listes et Tableaux",
+              "description": "Travailler avec des listes pour stocker plusieurs valeurs."
+            },
+            "es": {
+              "title": "Listas y Arreglos",
+              "description": "Trabajar con listas para almacenar múltiples valores."
+            },
+            "ar": {
+              "title": "القوائم والمصفوفات",
+              "description": "العمل مع القوائم لتخزين قيم متعددة."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_007",
+              "translations": {
+                "en": {
+                  "title": "Using Lists",
+                  "description": "Learn about lists in Python.",
+                  "content": "<p>Lists store multiple items in one variable.</p><ul><li>Ordered and changeable</li><li>Access by index</li><li>Add/remove items</li></ul><pre><code>numbers = [1, 2, 3, 4]\nprint(numbers[0])\nnumbers.append(5)\nprint(numbers)</code></pre>"
+                },
+                "fr": {
+                  "title": "Utiliser les Listes",
+                  "description": "Apprenez les listes en Python.",
+                  "content": "<p>Les listes stockent plusieurs éléments dans une variable.</p><ul><li>Ordonnées et modifiables</li><li>Accès par index</li><li>Ajouter/supprimer des éléments</li></ul><pre><code>nombres = [1, 2, 3, 4]\nprint(nombres[0])\nnombres.append(5)\nprint(nombres)</code></pre>"
+                },
+                "es": {
+                  "title": "Usando Listas",
+                  "description": "Aprende sobre listas en Python.",
+                  "content": "<p>Las listas almacenan múltiples elementos en una variable.</p><ul><li>Ordenadas y modificables</li><li>Acceso por índice</li><li>Agregar/quitar elementos</li></ul><pre><code>numeros = [1, 2, 3, 4]\nprint(numeros[0])\nnumeros.append(5)\nprint(numeros)</code></pre>"
+                },
+                "ar": {
+                  "title": "استخدام القوائم",
+                  "description": "تعلم عن القوائم في بايثون.",
+                  "content": "<p>تخزن القوائم عناصر متعددة في متغير واحد.</p><ul><li>مرتبة وقابلة للتغيير</li><li>الوصول بالفهرس</li><li>إضافة/إزالة العناصر</li></ul><pre><code>numbers = [1, 2, 3, 4]\nprint(numbers[0])\nnumbers.append(5)\nprint(numbers)</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_011",
+              "translations": {
+                "en": {
+                  "title": "Shopping List",
+                  "description": "Create and modify a shopping list",
+                  "code": "shopping_list = [\"bread\", \"milk\", \"eggs\"]\nprint(\"Original list:\", shopping_list)\nshopping_list.append(\"cheese\")\nprint(\"After adding cheese:\", shopping_list)\nshopping_list.remove(\"milk\")\nprint(\"After removing milk:\", shopping_list)",
+                  "expected_output": "Original list: ['bread', 'milk', 'eggs']\nAfter adding cheese: ['bread', 'milk', 'eggs', 'cheese']\nAfter removing milk: ['bread', 'eggs', 'cheese']"
+                },
+                "fr": {
+                  "title": "Liste de Courses",
+                  "description": "Créer et modifier une liste de courses",
+                  "code": "liste_courses = [\"pain\", \"lait\", \"œufs\"]\nprint(\"Liste originale:\", liste_courses)\nliste_courses.append(\"fromage\")\nprint(\"Après ajout fromage:\", liste_courses)\nliste_courses.remove(\"lait\")\nprint(\"Après suppression lait:\", liste_courses)",
+                  "expected_output": "Liste originale: ['pain', 'lait', 'œufs']\nAprès ajout fromage: ['pain', 'lait', 'œufs', 'fromage']\nAprès suppression lait: ['pain', 'œufs', 'fromage']"
+                },
+                "es": {
+                  "title": "Lista de Compras",
+                  "description": "Crear y modificar una lista de compras",
+                  "code": "lista_compras = [\"pan\", \"leche\", \"huevos\"]\nprint(\"Lista original:\", lista_compras)\nlista_compras.append(\"queso\")\nprint(\"Después de agregar queso:\", lista_compras)\nlista_compras.remove(\"leche\")\nprint(\"Después de quitar leche:\", lista_compras)",
+                  "expected_output": "Lista original: ['pan', 'leche', 'huevos']\nDespués de agregar queso: ['pan', 'leche', 'huevos', 'queso']\nDespués de quitar leche: ['pan', 'huevos', 'queso']"
+                },
+                "ar": {
+                  "title": "قائمة التسوق",
+                  "description": "إنشاء وتعديل قائمة تسوق",
+                  "code": "shopping_list = [\"خبز\", \"حليب\", \"بيض\"]\nprint(\"القائمة الأصلية:\", shopping_list)\nshopping_list.append(\"جبن\")\nprint(\"بعد إضافة الجبن:\", shopping_list)\nshopping_list.remove(\"حليب\")\nprint(\"بعد إزالة الحليب:\", shopping_list)",
+                  "expected_output": "القائمة الأصلية: ['خبز', 'حليب', 'بيض']\nبعد إضافة الجبن: ['خبز', 'حليب', 'بيض', 'جبن']\nبعد إزالة الحليب: ['خبز', 'بيض', 'جبن']"
+                }
+              }
+            },
+            {
+              "id": "exercise_012",
+              "translations": {
+                "en": {
+                  "title": "List Indexing",
+                  "description": "Access list elements by index",
+                  "code": "colors = [\"red\", \"green\", \"blue\", \"yellow\"]\nprint(\"First color:\", colors[0])\nprint(\"Third color:\", colors[2])\nprint(\"Last color:\", colors[-1])\nprint(\"List length:\", len(colors))",
+                  "expected_output": "First color: red\nThird color: blue\nLast color: yellow\nList length: 4"
+                },
+                "fr": {
+                  "title": "Indexation de Liste",
+                  "description": "Accéder aux éléments de liste par index",
+                  "code": "couleurs = [\"rouge\", \"vert\", \"bleu\", \"jaune\"]\nprint(\"Première couleur:\", couleurs[0])\nprint(\"Troisième couleur:\", couleurs[2])\nprint(\"Dernière couleur:\", couleurs[-1])\nprint(\"Longueur de la liste:\", len(couleurs))",
+                  "expected_output": "Première couleur: rouge\nTroisième couleur: bleu\nDernière couleur: jaune\nLongueur de la liste: 4"
+                },
+                "es": {
+                  "title": "Indexación de Lista",
+                  "description": "Acceder a elementos de lista por índice",
+                  "code": "colores = [\"rojo\", \"verde\", \"azul\", \"amarillo\"]\nprint(\"Primer color:\", colores[0])\nprint(\"Tercer color:\", colores[2])\nprint(\"Último color:\", colores[-1])\nprint(\"Longitud de la lista:\", len(colores))",
+                  "expected_output": "Primer color: rojo\nTercer color: azul\nÚltimo color: amarillo\nLongitud de la lista: 4"
+                },
+                "ar": {
+                  "title": "فهرسة القائمة",
+                  "description": "الوصول إلى عناصر القائمة بالفهرس",
+                  "code": "colors = [\"أحمر\", \"أخضر\", \"أزرق\", \"أصفر\"]\nprint(\"اللون الأول:\", colors[0])\nprint(\"اللون الثالث:\", colors[2])\nprint(\"اللون الأخير:\", colors[-1])\nprint(\"طول القائمة:\", len(colors))",
+                  "expected_output": "اللون الأول: أحمر\nاللون الثالث: أزرق\nاللون الأخير: أصفر\nطول القائمة: 4"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "lesson_007",
+          "translations": {
+            "en": {
+              "title": "Match-Case Operator",
+              "description": "Use match-case for pattern matching."
+            },
+            "fr": {
+              "title": "Opérateur Match-Case",
+              "description": "Utilisez match-case pour la correspondance de motifs."
+            },
+            "es": {
+              "title": "Operador Match-Case",
+              "description": "Usa match-case para coincidencia de patrones."
+            },
+            "ar": {
+              "title": "عامل Match-Case",
+              "description": "استخدم match-case لمطابقة الأنماط."
+            }
+          },
+          "chapters": [
+            {
+              "id": "chapter_008",
+              "translations": {
+                "en": {
+                  "title": "Pattern Matching with Match-Case",
+                  "description": "Learn the match-case statement in Python.",
+                  "content": "<p>The <strong>match-case</strong> statement performs pattern matching.</p><ul><li>Like switch-case in other languages</li><li>Available in Python 3.10+</li><li>Supports multiple patterns</li></ul><pre><code>day = \"Monday\"\nmatch day:\n    case \"Monday\":\n        print(\"Start of work week\")\n    case \"Friday\":\n        print(\"TGIF\")\n    case _:\n        print(\"Another day\")</code></pre>"
+                },
+                "fr": {
+                  "title": "Correspondance de Motifs avec Match-Case",
+                  "description": "Apprenez l’instruction match-case en Python.",
+                  "content": "<p>L’instruction <strong>match-case</strong> effectue une correspondance de motifs.</p><ul><li>Comme switch-case dans d’autres langages</li><li>Disponible en Python 3.10+</li><li>Prend en charge plusieurs motifs</li></ul><pre><code>jour = \"Lundi\"\nmatch jour:\n    case \"Lundi\":\n        print(\"Début de semaine de travail\")\n    case \"Vendredi\":\n        print(\"TGIF\")\n    case _:\n        print(\"Un autre jour\")</code></pre>"
+                },
+                "es": {
+                  "title": "Coincidencia de Patrones con Match-Case",
+                  "description": "Aprende la declaración match-case en Python.",
+                  "content": "<p>La declaración <strong>match-case</strong> realiza coincidencia de patrones.</p><ul><li>Como switch-case en otros lenguajes</li><li>Disponible en Python 3.10+</li><li>Soporta múltiples patrones</li></ul><pre><code>dia = \"Lunes\"\nmatch dia:\n    case \"Lunes\":\n        print(\"Inicio de semana laboral\")\n    case \"Viernes\":\n        print(\"¡Viva el viernes!\")\n    case _:\n        print(\"Otro día\")</code></pre>"
+                },
+                "ar": {
+                  "title": "مطابقة الأنماط مع Match-Case",
+                  "description": "تعلم جملة match-case في بايثون.",
+                  "content": "<p>تقوم جملة <strong>match-case</strong> بمطابقة الأنماط.</p><ul><li>مثل switch-case في لغات أخرى</li><li>متاحة في بايثون 3.10+</li><li>تدعم أنماط متعددة</li></ul><pre><code>day = \"Monday\"\nmatch day:\n    case \"Monday\":\n        print(\"بداية أسبوع العمل\")\n    case \"Friday\":\n        print(\"شكراً للجمعة\")\n    case _:\n        print(\"يوم آخر\")</code></pre>"
+                }
+              }
+            }
+          ],
+          "exercises": [
+            {
+              "id": "exercise_013",
+              "translations": {
+                "en": {
+                  "title": "Day of Week",
+                  "description": "Use match-case to determine weekend or weekday",
+                  "code": "day = \"Saturday\"\nmatch day:\n    case \"Saturday\" | \"Sunday\":\n        print(\"It's weekend!\")\n    case \"Monday\" | \"Tuesday\" | \"Wednesday\" | \"Thursday\" | \"Friday\":\n        print(\"It's a weekday\")\n    case _:\n        print(\"Invalid day\")",
+                  "expected_output": "It's weekend!"
+                },
+                "fr": {
+                  "title": "Jour de la Semaine",
+                  "description": "Utilisez match-case pour déterminer week-end ou jour de semaine",
+                  "code": "jour = \"Samedi\"\nmatch jour:\n    case \"Samedi\" | \"Dimanche\":\n        print(\"C'est le week-end !\")\n    case \"Lundi\" | \"Mardi\" | \"Mercredi\" | \"Jeudi\" | \"Vendredi\":\n        print(\"C'est un jour de semaine\")\n    case _:\n        print(\"Jour invalide\")",
+                  "expected_output": "C'est le week-end !"
+                },
+                "es": {
+                  "title": "Día de la Semana",
+                  "description": "Usa match-case para determinar fin de semana o día laborable",
+                  "code": "dia = \"Sábado\"\nmatch dia:\n    case \"Sábado\" | \"Domingo\":\n        print(\"¡Es fin de semana!\")\n    case \"Lunes\" | \"Martes\" | \"Miércoles\" | \"Jueves\" | \"Viernes\":\n        print(\"Es un día laborable\")\n    case _:\n        print(\"Día inválido\")",
+                  "expected_output": "¡Es fin de semana!"
+                },
+                "ar": {
+                  "title": "يوم الأسبوع",
+                  "description": "استخدم match-case لتحديد عطلة نهاية الأسبوع أو يوم عمل",
+                  "code": "day = \"Saturday\"\nmatch day:\n    case \"Saturday\" | \"Sunday\":\n        print(\"إنه عطلة نهاية الأسبوع!\")\n    case \"Monday\" | \"Tuesday\" | \"Wednesday\" | \"Thursday\" | \"Friday\":\n        print(\"إنه يوم عمل\")\n    case _:\n        print(\"يوم غير صحيح\")",
+                  "expected_output": "إنه عطلة نهاية الأسبوع!"
+                }
+              }
+            },
+            {
+              "id": "exercise_014",
+              "translations": {
+                "en": {
+                  "title": "Traffic Light",
+                  "description": "Use match-case for traffic light actions",
+                  "code": "light = \"green\"\nmatch light:\n    case \"red\":\n        print(\"Stop!\")\n    case \"yellow\":\n        print(\"Slow down\")\n    case \"green\":\n        print(\"Go!\")\n    case _:\n        print(\"Broken light\")",
+                  "expected_output": "Go!"
+                },
+                "fr": {
+                  "title": "Feu de Circulation",
+                  "description": "Utilisez match-case pour les actions des feux de circulation",
+                  "code": "feu = \"vert\"\nmatch feu:\n    case \"rouge\":\n        print(\"Arrêtez !\")\n    case \"orange\":\n        print(\"Ralentissez\")\n    case \"vert\":\n        print(\"Allez !\")\n    case _:\n        print(\"Feu cassé\")",
+                  "expected_output": "Allez !"
+                },
+                "es": {
+                  "title": "Semáforo",
+                  "description": "Usa match-case para acciones de semáforo",
+                  "code": "luz = \"verde\"\nmatch luz:\n    case \"rojo\":\n        print(\"¡Detente!\")\n    case \"amarillo\":\n        print(\"Reduce la velocidad\")\n    case \"verde\":\n        print(\"¡Adelante!\")\n    case _:\n        print(\"Luz rota\")",
+                  "expected_output": "¡Adelante!"
+                },
+                "ar": {
+                  "title": "إشارة المرور",
+                  "description": "استخدم match-case لإجراءات إشارة المرور",
+                  "code": "light = \"green\"\nmatch light:\n    case \"red\":\n        print(\"توقف!\")\n    case \"yellow\":\n        print(\"خفض السرعة\")\n    case \"green\":\n        print(\"انطلق!\")\n    case _:\n        print(\"إشارة معطلة\")",
+                  "expected_output": "انطلق!"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<ion-header>
+  <ion-toolbar color="primary" class="glass-header">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ 'PRIVACY.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="privacy-content">
+  <div class="header-section">
+    <ion-icon name="shield-checkmark-outline" size="large" color="secondary"></ion-icon>
+    <h1>{{ 'PRIVACY.TITLE' | translate }}</h1>
+    <p>{{ 'PRIVACY.LAST_UPDATED' | translate }}</p>
+  </div>
+
+  <ion-card class="policy-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'PRIVACY.COLLECT_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'PRIVACY.COLLECT_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="policy-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'PRIVACY.USE_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'PRIVACY.USE_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="policy-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'PRIVACY.SECURITY_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'PRIVACY.SECURITY_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="policy-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'PRIVACY.THIRD_PARTY_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'PRIVACY.THIRD_PARTY_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="policy-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'PRIVACY.CHANGES_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'PRIVACY.CHANGES_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="contact-section">
+    <h2 color="primary">{{ 'PRIVACY.QUESTIONS_TITLE' | translate }}</h2>
+    <p>{{ 'PRIVACY.QUESTIONS_DESC' | translate }}</p>
+    <div class="app-info">
+      <p><strong>Website:</strong> <a href="https://omzor.com" target="_blank">omzor.com</a></p>
+      <p><strong>Email:</strong> <a href="mailto:contact@omzor.com">contact@omzor.com</a></p>
+      <p><strong>Author/Developer:</strong> MOHAMED OM</p>
+    </div>
+    <ion-button color="secondary" fill="outline">
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      {{ 'PRIVACY.CONTACT_BUTTON' | translate }}
+    </ion-button>
+  </div>
+</ion-content>

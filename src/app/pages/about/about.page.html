@@ -1,0 +1,57 @@
+<ion-header>
+  <ion-toolbar color="primary" class="glass-header">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ 'ABOUT.TITLE' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="about-content">
+  <div class="hero-section">
+    <ion-icon name="code-outline" size="large" color="secondary"></ion-icon>
+    <h1>{{ 'APP_NAME' | translate }}</h1>
+    <p>{{ 'ABOUT.SUBTITLE' | translate }}</p>
+  </div>
+
+  <ion-card class="feature-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'ABOUT.FEATURE1_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'ABOUT.FEATURE1_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="feature-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'ABOUT.FEATURE2_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'ABOUT.FEATURE2_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card class="feature-card">
+    <ion-card-header>
+      <ion-card-title color="primary">{{ 'ABOUT.FEATURE3_TITLE' | translate }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>{{ 'ABOUT.FEATURE3_DESC' | translate }}</p>
+    </ion-card-content>
+  </ion-card>
+
+  <div class="contact-section">
+    <h2 color="primary">{{ 'ABOUT.CONTACT_TITLE' | translate }}</h2>
+    <p>{{ 'ABOUT.CONTACT_DESC' | translate }}</p>
+    <div class="app-info">
+      <p><strong>Website :</strong> <a href="https://omzor.com" target="_blank">www.omzor.com</a></p>
+      <p><strong>Email :</strong> <a href="mailto:contact@omzor.com">contact@omzor.com</a></p>
+      <p><strong>Author/Developer :</strong> MOHAMED OM</p>
+    </div>
+    <ion-button color="secondary" fill="outline" (click)="openContact()">
+      <ion-icon name="mail-outline" slot="start"></ion-icon>
+      {{ 'ABOUT.CONTACT_BUTTON' | translate }}
+    </ion-button>
+  </div>
+</ion-content>

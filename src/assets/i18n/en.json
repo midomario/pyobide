@@ -1,0 +1,119 @@
+{
+  "APP_NAME": "Pyobide Python Basic Offline IDE",
+  "ONBOARD": {
+    "TITLE1": "Run Python Offline",
+    "DESC1": "Execute Python code directly on your device",
+    "TITLE2": "Learn & Experiment",
+    "DESC2": "Perfect for students and developers",
+    "TITLE3": "Fast & Secure",
+    "DESC3": "No internet required",
+    "START": "Start",
+    "FEATURES_TITLE": "Why Choose Pyobide?"
+  },
+  "MENU": {
+    "HOME": "Home",
+    "IDE": "Python IDE",
+    "LESSONS": "Lessons",
+    "ABOUT": "About Us",
+    "PRIVACY": "Privacy Policy",
+    "TERMS": "Terms & Conditions",
+    "LANGUAGE": "Language"
+  },
+  "HOME": {
+    "TITLE": "Pyobide Python Basic Offline IDE",
+    "RUN": "Run",
+    "RUNNING": "Running Python...",
+    "WELCOME": "Welcome to Pyobide Python Basic Offline IDE",
+    "SUBTITLE": "Your Offline Python Environment",
+    "IDE_TITLE": "Python IDE",
+    "IDE_DESCRIPTION": "Write, edit, and run Python code with syntax highlighting and autocompletion.",
+    "LESSONS_TITLE": "Python Lessons",
+    "LESSONS_DESCRIPTION": "Learn Python programming with interactive tutorials and examples."
+  },
+  "OUTPUT": {
+    "TITLE": "Output",
+    "CLOSE": "Close",
+    "CLEAR": "Clear Output"
+  },
+  "ABOUT": {
+    "TITLE": "About Pyobide Python Basic Offline IDE",
+    "SUBTITLE": "Your Offline Python Playground",
+    "FEATURE1_TITLE": "Built with Ionic & Pyodide",
+    "FEATURE1_DESC": "Pyobide Python Basic Offline IDE leverages the power of Ionic framework and Pyodide to bring Python execution directly to your mobile device. No internet required!",
+    "FEATURE2_TITLE": "Perfect for Learning",
+    "FEATURE2_DESC": "Whether you're a student, developer, or just curious about Python, Pyobide Python Basic Offline IDE provides an intuitive environment to write, run, and experiment with code.",
+    "FEATURE3_TITLE": "Fast & Secure",
+    "FEATURE3_DESC": "Execute Python code instantly on your device with no data sent to external servers. Your code stays private and secure.",
+    "CONTACT_TITLE": "Contact Us",
+    "CONTACT_DESC": "If you have any questions or feedback, feel free to reach out!",
+    "CONTACT_BUTTON": "Contact Support"
+  },
+  "PRIVACY": {
+    "TITLE": "Privacy Policy",
+    "LAST_UPDATED": "Last updated: December 26, 2025",
+    "COLLECT_TITLE": "Information We Collect",
+    "COLLECT_DESC": "Pyobide Python Basic Offline IDE is designed to run entirely offline. We do not collect, store, or transmit any personal information, code, or data from your device.",
+    "USE_TITLE": "How We Use Information",
+    "USE_DESC": "Since we don't collect any information, there is no usage of personal data. All Python code execution happens locally on your device using Pyodide.",
+    "SECURITY_TITLE": "Data Security",
+    "SECURITY_DESC": "Your privacy is our priority. All code and data remain on your device. We recommend keeping your device secure to protect your information.",
+    "THIRD_PARTY_TITLE": "Third-Party Services",
+    "THIRD_PARTY_DESC": "Pyobide Python Basic Offline IDE does not integrate with any third-party services that collect user data. The app is self-contained and offline-first.",
+    "CHANGES_TITLE": "Changes to This Policy",
+    "CHANGES_DESC": "We may update this privacy policy from time to time. Any changes will be reflected in the app and on this page.",
+    "QUESTIONS_TITLE": "Questions?",
+    "QUESTIONS_DESC": "If you have any questions about this privacy policy, please contact us.",
+    "CONTACT_BUTTON": "Contact Us"
+  },
+  "TERMS": {
+    "TITLE": "Terms of Service",
+    "LAST_UPDATED": "Last updated: December 26, 2025",
+    "ACCEPTANCE_TITLE": "Acceptance of Terms",
+    "ACCEPTANCE_DESC": "By using Pyobide Python Basic Offline IDE, you agree to these terms of service. If you do not agree, please do not use the app.",
+    "USE_TITLE": "Use of the App",
+    "USE_DESC": "Pyobide Python Basic Offline IDE is provided for educational and personal use. You may use it to write and execute Python code offline. Commercial use is allowed as long as it complies with these terms.",
+    "RESPONSIBILITY_TITLE": "User Responsibilities",
+    "RESPONSIBILITY_DESC": "You are responsible for the code you write and execute. Pyobide Python Basic Offline IDE is not liable for any damage caused by misuse of the app or execution of harmful code.",
+    "DISCLAIMER_TITLE": "Disclaimer",
+    "DISCLAIMER_DESC": "The app is provided \"as is\" without warranties. We do not guarantee uninterrupted service or error-free operation.",
+    "LIABILITY_TITLE": "Limitation of Liability",
+    "LIABILITY_DESC": "In no event shall Pyobide Python Basic Offline IDE or its developers be liable for any indirect, incidental, or consequential damages arising from use of the app.",
+    "CHANGES_TITLE": "Changes to Terms",
+    "CHANGES_DESC": "We reserve the right to modify these terms at any time. Continued use of the app constitutes acceptance of updated terms.",
+    "CONTACT_TITLE": "Contact Information",
+    "CONTACT_DESC": "For questions about these terms, please contact us.",
+    "CONTACT_BUTTON": "Contact Us"
+  },
+  "LEVELS": {
+    "BEGINNER": "Beginner",
+    "INTERMEDIATE": "Intermediate",
+    "ADVANCED": "Advanced"
+  },
+  "LESSONS": {
+    "TITLE": "Python Lessons",
+    "SUBTITLE": "Learn Python Programming",
+    "DESCRIPTION": "Master Python with interactive lessons and examples",
+    "BASICS_TITLE": "Python Basics",
+    "BASICS_DESC": "Learn the fundamentals of Python programming",
+    "VARIABLES_TITLE": "Variables & Data Types",
+    "VARIABLES_DESC": "Understanding variables, strings, numbers, and booleans",
+    "LOOPS_TITLE": "Loops & Control Flow",
+    "LOOPS_DESC": "Master for loops, while loops, and conditional statements",
+    "FUNCTIONS_TITLE": "Functions",
+    "FUNCTIONS_DESC": "Create reusable code with functions and parameters",
+    "LISTS_TITLE": "Lists & Dictionaries",
+    "LISTS_DESC": "Work with collections of data using lists and dictionaries",
+    "CLASSES_TITLE": "Object-Oriented Programming",
+    "CLASSES_DESC": "Learn classes, objects, and inheritance",
+    "BEGINNER": "Beginner",
+    "INTERMEDIATE": "Intermediate",
+    "ADVANCED": "Advanced"
+  },
+  "LESSON": {
+    "NO_CHAPTERS": "No chapters available for this lesson",
+    "EXERCISES": "Practice Exercises",
+    "EXERCISES_DESC": "Try these exercises to practice what you've learned"
+  },
+  "SKIP": "Skip"
+
+}

@@ -1,0 +1,16 @@
+{
+  "contact": {
+    "email": "contact@omzor.com",
+    "website": "https://omzor.com",
+    "contact_url": "https://omzor.com/contact"
+  },
+  "app": {
+    "version": "1.0.0",
+    "tagline": "Python IDE in your pocket"
+  },
+  "pages": {
+    "about": {
+      "website": "https://omzor.com"
+    }
+  }
+}
