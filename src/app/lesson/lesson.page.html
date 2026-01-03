@@ -15,57 +15,70 @@
 </ion-header>
 
 <ion-content class="lesson-content">
-  <div class="lesson-header" *ngIf="lesson">
-    <h1>{{ getLessonTitle() }}</h1>
-    <p>{{ getLessonDescription() }}</p>
-  </div>
+  @if (lesson) {
+    <div class="lesson-header">
+      <h1>{{ getLessonTitle() }}</h1>
+      <p>{{ getLessonDescription() }}</p>
+    </div>
+  }
 
-  <ion-list *ngIf="chapters.length > 0">
-    <ion-item-group *ngFor="let chapter of chapters; let i = index">
-      <ion-item button (click)="markChapterAsRead(chapter)" [class.read]="chapter.read">
-        <ion-icon [name]="chapter.read ? 'checkmark-circle' : 'book'" slot="start" [color]="chapter.read ? 'success' : 'primary'"></ion-icon>
-        <ion-label>
-          <h2>{{ i + 1 }}. {{ getChapterTitle(chapter) }}</h2>
-          <p>{{ getChapterDescription(chapter) }}</p>
-        </ion-label>
-        <ion-icon name="chevron-forward" slot="end"></ion-icon>
-      </ion-item>
+  @if (chapters.length > 0) {
+    <ion-list>
+      @for (chapter of chapters; track chapter; let i = $index) {
+        <ion-item-group>
+          <ion-item button (click)="markChapterAsRead(chapter)" [class.read]="chapter.read">
+            <ion-icon [name]="chapter.read ? 'checkmark-circle' : 'book'" slot="start" [color]="chapter.read ? 'success' : 'primary'"></ion-icon>
+            <ion-label>
+              <h2>{{ i + 1 }}. {{ getChapterTitle(chapter) }}</h2>
+              <p>{{ getChapterDescription(chapter) }}</p>
+            </ion-label>
+            <ion-icon name="chevron-forward" slot="end"></ion-icon>
+          </ion-item>
+          @if (chapter.read) {
+            <ion-item class="chapter-content">
+              <div [innerHTML]="getChapterContent(chapter)" class="chapter-html"></div>
+            </ion-item>
+          }
+        </ion-item-group>
+      }
+    </ion-list>
+  }
 
-      <ion-item *ngIf="chapter.read" class="chapter-content">
-        <div [innerHTML]="getChapterContent(chapter)" class="chapter-html"></div>
-      </ion-item>
-    </ion-item-group>
-  </ion-list>
-
-  <div *ngIf="chapters.length === 0" class="no-chapters">
-    <ion-icon name="document" size="large" color="medium"></ion-icon>
-    <p>{{ 'LESSON.NO_CHAPTERS' | translate }}</p>
-  </div>
+  @if (chapters.length === 0) {
+    <div class="no-chapters">
+      <ion-icon name="document" size="large" color="medium"></ion-icon>
+      <p>{{ 'LESSON.NO_CHAPTERS' | translate }}</p>
+    </div>
+  }
 
   <!-- Exercises Section -->
-  <div *ngIf="exercises.length > 0" class="exercises-section">
-    <ion-card class="glass-card">
-      <ion-card-header>
-        <ion-card-title>
-          <ion-icon name="code-working" slot="start"></ion-icon>
-          {{ 'LESSON.EXERCISES' | translate }}
-        </ion-card-title>
-        <ion-card-subtitle>{{ 'LESSON.EXERCISES_DESC' | translate }}</ion-card-subtitle>
-      </ion-card-header>
-      <ion-card-content>
-        <ion-list>
-          <ion-item-group *ngFor="let exercise of exercises; let i = index">
-            <ion-item button (click)="goToIde(exercise)" class="exercise-item">
-              <ion-icon name="play-circle" slot="start" color="primary"></ion-icon>
-              <ion-label>
-                <h2>{{ i + 1 }}. {{ getExerciseTitle(exercise) }}</h2>
-                <p>{{ getExerciseDescription(exercise) }}</p>
-              </ion-label>
-              <ion-icon name="chevron-forward" slot="end"></ion-icon>
-            </ion-item>
-          </ion-item-group>
-        </ion-list>
-      </ion-card-content>
-    </ion-card>
-  </div>
+  @if (exercises.length > 0) {
+    <div class="exercises-section">
+      <ion-card class="glass-card">
+        <ion-card-header>
+          <ion-card-title>
+            <ion-icon name="code-working" slot="start"></ion-icon>
+            {{ 'LESSON.EXERCISES' | translate }}
+          </ion-card-title>
+          <ion-card-subtitle>{{ 'LESSON.EXERCISES_DESC' | translate }}</ion-card-subtitle>
+        </ion-card-header>
+        <ion-card-content>
+          <ion-list>
+            @for (exercise of exercises; track exercise; let i = $index) {
+              <ion-item-group>
+                <ion-item button (click)="goToIde(exercise)" class="exercise-item">
+                  <ion-icon name="play-circle" slot="start" color="primary"></ion-icon>
+                  <ion-label>
+                    <h2>{{ i + 1 }}. {{ getExerciseTitle(exercise) }}</h2>
+                    <p>{{ getExerciseDescription(exercise) }}</p>
+                  </ion-label>
+                  <ion-icon name="chevron-forward" slot="end"></ion-icon>
+                </ion-item>
+              </ion-item-group>
+            }
+          </ion-list>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  }
 </ion-content>

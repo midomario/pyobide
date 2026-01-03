@@ -1,11 +1,11 @@
-import { NgIf } from '@angular/common';
+
 import { Component, CUSTOM_ELEMENTS_SCHEMA, Input } from '@angular/core';
 import { IonicModule, ModalController } from '@ionic/angular';
 import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   standalone: true,
-  imports: [IonicModule,NgIf,TranslateModule],
+  imports: [IonicModule, TranslateModule],
   template: `
     <ion-header>
       <ion-toolbar color="primary">
@@ -17,17 +17,19 @@ import { TranslateModule } from '@ngx-translate/core';
         </ion-buttons>
       </ion-toolbar>
     </ion-header>
-
+    
     <ion-content class="output-content">
       <div class="output-container">
         <pre class="output-text">{{ output }}</pre>
-        <ion-button (click)="clearOutput()" color="secondary" fill="outline" expand="block" *ngIf="output">
-          <ion-icon name="trash-outline" slot="start"></ion-icon>
-          {{ 'OUTPUT.CLEAR' | translate }}
-        </ion-button>
+        @if (output) {
+          <ion-button (click)="clearOutput()" color="secondary" fill="outline" expand="block">
+            <ion-icon name="trash-outline" slot="start"></ion-icon>
+            {{ 'OUTPUT.CLEAR' | translate }}
+          </ion-button>
+        }
       </div>
     </ion-content>
-  `,
+    `,
   styles: [`
     .output-content {
       --background: linear-gradient(135deg, var(--ion-color-primary) 0%, var(--ion-color-secondary) 100%);

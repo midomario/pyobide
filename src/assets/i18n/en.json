@@ -1,5 +1,6 @@
 {
   "APP_NAME": "Pyobide Python Basic Offline IDE",
+  "APP_TITLE" : "PyobIDE",
   "ONBOARD": {
     "TITLE1": "Run Python Offline",
     "DESC1": "Execute Python code directly on your device",

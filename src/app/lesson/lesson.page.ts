@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+
 import { ActivatedRoute, Router } from '@angular/router';
 import { LessonsService, Lesson, Chapter, Exercise } from '../services/lessons.service';
 import { ProgressService } from '../services/progress.service';
@@ -13,7 +13,7 @@ interface DisplayChapter extends Chapter {
 @Component({
   standalone: true,
   selector: 'app-lesson',
-  imports: [IonicModule, TranslateModule, CommonModule],
+  imports: [IonicModule, TranslateModule],
   templateUrl: './lesson.page.html',
   styleUrls: ['./lesson.page.scss'],
 })

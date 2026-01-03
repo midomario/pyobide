@@ -1,5 +1,6 @@
 {
   "APP_NAME": "Pyobide - IDE Python Basique Hors Ligne",
+  "APP_TITLE" : "PyobIDE",
   "ONBOARD": {
     "TITLE1": "Exécuter Python Hors Ligne",
     "DESC1": "Exécutez du code Python directement sur votre appareil",

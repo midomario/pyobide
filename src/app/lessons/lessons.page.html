@@ -13,25 +13,30 @@
     <p>{{ 'LESSONS.DESCRIPTION' | translate }}</p>
   </div>
 
-  <ion-list *ngFor="let level of getLevelKeys()">
-    <ion-list-header>
-      <ion-label>
-        <h2>{{ 'LEVELS.' + level.toUpperCase() | translate }}</h2>
-      </ion-label>
-    </ion-list-header>
-
-    <ion-item-group *ngFor="let lesson of getLessonsForLevel(level)">
-      <ion-item button (click)="openLesson(lesson)" class="lesson-item">
-        <ion-icon [name]="lesson.icon" slot="start" color="info"></ion-icon>
+  @for (level of getLevelKeys(); track level) {
+    <ion-list>
+      <ion-list-header>
         <ion-label>
-          <h2>{{ lesson.title }}</h2>
-          <p>{{ lesson.description }}</p>
+          <h2>{{ 'LEVELS.' + level.toUpperCase() | translate }}</h2>
         </ion-label>
-        <ion-badge [color]="getDifficultyColor(lesson.difficulty)" slot="end">
-          {{ 'LEVELS.' + lesson.difficulty.toUpperCase() | translate }}
-        </ion-badge>
-        <ion-icon *ngIf="lesson.completed" name="checkmark-circle" color="success" slot="end"></ion-icon>
-      </ion-item>
-    </ion-item-group>
-  </ion-list>
+      </ion-list-header>
+      @for (lesson of getLessonsForLevel(level); track lesson) {
+        <ion-item-group>
+          <ion-item button (click)="openLesson(lesson)" class="lesson-item">
+            <ion-icon [name]="lesson.icon" slot="start" color="info"></ion-icon>
+            <ion-label>
+              <h2>{{ lesson.title }}</h2>
+              <p>{{ lesson.description }}</p>
+            </ion-label>
+            <ion-badge [color]="getDifficultyColor(lesson.difficulty)" slot="end">
+              {{ 'LEVELS.' + lesson.difficulty.toUpperCase() | translate }}
+            </ion-badge>
+            @if (lesson.completed) {
+              <ion-icon name="checkmark-circle" color="success" slot="end"></ion-icon>
+            }
+          </ion-item>
+        </ion-item-group>
+      }
+    </ion-list>
+  }
 </ion-content>

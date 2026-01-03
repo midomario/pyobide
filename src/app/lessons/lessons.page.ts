@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
 import { TranslateModule, TranslateService } from '@ngx-translate/core';
-import { CommonModule, NgFor } from '@angular/common';
+
 import { Router } from '@angular/router';
 import { LessonsService, Lesson, Level } from '../services/lessons.service';
 
@@ -18,7 +18,7 @@ interface DisplayLesson {
 @Component({
   standalone: true,
   selector: 'app-lessons',
-  imports: [IonicModule, TranslateModule, CommonModule, NgFor],
+  imports: [IonicModule, TranslateModule],
   templateUrl: './lessons.page.html',
   styleUrls: ['./lessons.page.scss'],
 })

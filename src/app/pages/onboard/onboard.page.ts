@@ -1,5 +1,5 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA, OnInit } from '@angular/core';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 import { IonContent, IonButton, IonIcon } from '@ionic/angular/standalone';
 import { TranslateModule } from '@ngx-translate/core';
@@ -12,7 +12,7 @@ import { SwiperOptions } from 'swiper/types';
   templateUrl: './onboard.page.html',
   styleUrls: ['./onboard.page.scss'],
   standalone: true,
-  imports: [IonContent, IonButton, IonIcon, CommonModule, FormsModule, TranslateModule],
+  imports: [IonContent, IonButton, IonIcon, FormsModule, TranslateModule],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
 })

@@ -1,5 +1,6 @@
 {
   "APP_NAME": "Pyobide - IDE Básico de Python Sin Conexión",
+  "APP_TITLE" : "PyobIDE",
   "ONBOARD": {
     "TITLE1": "Ejecutar Python Sin Conexión",
     "DESC1": "Ejecuta código Python directamente en tu dispositivo",
